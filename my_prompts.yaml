@@ -1,0 +1,12 @@
+---
+- cmd: test
+  act: haha
+  tags: []
+  enable: true
+  prompt: happy
+- cmd: rewrite
+  act: rewrite the model
+  tags: []
+  enable: true
+  prompt: rewrite the following sentence
+
