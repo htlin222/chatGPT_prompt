@@ -1,10 +1,15 @@
-- cmd: test
-  act: haha
-  tags: []
+- cmd: keypoint
+  act: key point
+  tags: [study]
   enable: true
-  prompt: happy
+  prompt: "key point of the following paragraphs: \n"
 - cmd: rewrite
   act: rewrite the model
   tags: []
   enable: true
-  prompt: rewrite the following sentence
+  prompt: "rewrite the following sentence: \n"
+- cmd: keyz
+  act: keyzh
+  tags: [default]
+  enable: true
+  prompt: "Summarize the following sentence in keypoints as markdown format, and translate it into Chinese (Taiwan):"
