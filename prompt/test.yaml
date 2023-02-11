@@ -1,5 +1,5 @@
 - cmd: test
-  act: happy
+  act: haha
   tags: []
   enable: true
   prompt: happy
